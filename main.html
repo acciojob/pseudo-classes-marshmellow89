@@ -4,9 +4,48 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>	
+		body{
+			background-color:rgb(135, 206, 235);
+		}
+		p:first-child{
+			color:white;
+			background-color:black;
+		}
+		p:nth-child(2){
+		}
+		p:last-child{
+			color:red;
+		}
+		li:nth-child(odd){
+				background-color:white;
+			}
+		li:nth-child(even){
+				background-color:gray;
+			}
+		li:nth-child(3),li:nth-child(n){
+			background-color:pink;
+		}
+		li{
+			width:50%;
+			padding:10px;
+		}
+		li:nth-child(1),li:nth-child(n){
+			font-size:22px;
+		}
+		
+	</style>
 </head>
 
 <body>
+	<p>Wikipedia is hosted by the Wikimedia</p>
+	<p>Foundation, a non-profit organization</p>
+	<p>Save your favorite articles to read offline</p>
+	<div><ul><li>First item</li>
+	<li>Second item</li>
+	<li>Third item</li>
+	<li>Fourth item</li>
+	<li>Fifth item</li></ul></div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
